@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.header{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(100deg, hsla(0, 100%, 3%, 0.7),
+     hsla(0, 0%, 0%, 0.7)),url('./images/three.jpg');
+    background-size: cover;
+    
+
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+    max-height: 100px;
+    background: rgb(76, 1, 1);
+    width: 100%;
+    
+}
+
+.navbar ul li{
+
+    display: inline-block;
+    list-style: none;
+    margin: 10x 30px;
+   
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0 20px;
+    
+}
+
+.navbar ul li a:hover{
+    background: black;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+label{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(3, 3, 3);
+}
+
+span{
+    color: white;
+}
+
+ button{
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+ }
+
+ .par-1{
+    align-items: center;
+    
+ }
+
+ .content h1{
+    padding-top: 200px;
+    font-size: 50px;
+    color: #fff;
+    margin-left: 250px;
+ }
+
+ .content p{
+    color: antiquewhite;
+    margin-left: 320px;
+    
+ }
+ br{
+    margin-left: 400px;
+ }
+
+ .anchor{
+    margin-top: 20px;
+    margin-left: 580px;
+ }
+
+.anchor{
+    text-decoration: none;
+    background: maroon;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    
+ }
+
+ .anchor a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+ }
+ 
+ .anchor:hover{
+    background: white;
+    color: black;
+ }
+
+
+img{
+    max-width: 320px;
+    float: left;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.wrapper{
+    margin: 150px auto;
+    width: 70%;
+}
+
+.mem{
+    text-align: center;
+    padding-bottom: 30px;
+    color: maroon;
+    text-decoration: underline;
+}
+
+.text-box{
+    color: rgb(11, 11, 11);
+}
+
+.text-box h2{
+    font-size: 42px;
+    padding-bottom: 10px;
+}
+
+.text-box p{
+    font-size: 16px;
+}
+
+hr{
+    width: 100%;
+    margin-top: 40px;
+    margin: 40px;
+   
+}
+.image{
+    max-width: 320px;
+    float: right;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.wrapper{
+    margin: 150px auto;
+    width: 70%;
+}
+
+.text-box1{
+    color: rgb(10, 10, 10);
+    margin-bottom: 10px;
+}
+
+.text-box h2{
+    font-size: 25px;
+}
+
+.text-box p1{
+    font-size: 16px;
+    color: white;
+}
+
+
+.col-1, .col-2{
+    padding-bottom: 40px;
+}
+
+.col-3 .image-1{
+    width: 300px;;
+    height: 250px;
+}
+
+.text-box1 h2{
+    padding-bottom: 10px;
+}
+
+br{
+    padding: 10px;
+}
+
+.afric{
+    color: maroon;
+    font-weight: bold;
+}
+
+.M{
+    color: maroon;
+    font-weight: bold;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+
+
+
